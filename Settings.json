@@ -1,0 +1,33 @@
+{
+ "packs": {
+  "texture": "",
+  "sound": "",
+  "mod": "",
+  "language": "",
+  "addon": ""
+ },
+ "loaded packs": {
+  "texture": [],
+  "sound": [],
+  "mod": [],
+  "language": [],
+  "addon": []
+ },
+ "servers": ["mo.osomi.net"],
+ "resolution": [1920, 1080],
+ "changeResolution": false,
+ "sound": 100,
+ "music": 100,
+ "graphics": "fancy",
+ "difficulty": 100,
+ "showChat": true,
+ "fullscreen": false,
+ "debug": {
+  "showDurability": false,
+  "showTags": false,
+  "showEnchants": true,
+  "showIds": false,
+  "showMobIds": false,
+  "showFPS": false
+ }
+}

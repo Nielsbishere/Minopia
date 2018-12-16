@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\2D">
+      <UniqueIdentifier>{79bd1fcc-93ff-4d17-ba2c-a2d45ff8c4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{65b568db-2a03-4a60-856b-a063be031a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\Base64">
+      <UniqueIdentifier>{e155294a-addf-456a-9ccf-5b64b4281f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\JSON">
+      <UniqueIdentifier>{047ec313-af60-462a-a6a0-97ad830a0e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\SimplexNoise">
+      <UniqueIdentifier>{087a3285-9591-4785-989a-160cb0b53a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API\SOIL">
+      <UniqueIdentifier>{15332adc-19b7-410a-9094-59ff1e13eafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{a3556e2c-179f-41b6-bf7f-e158566907f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mod">
+      <UniqueIdentifier>{14a657b9-4a67-4681-b1b7-31fe64dfbb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{770852ec-3e36-4114-b0e0-2ae8fd23d9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{80b20017-9aa5-4fbe-b4b2-cbdf708b1d4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\2D\Biome.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2D\BiomeManager.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2D\Camera.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2D\GameState.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2D\Tree.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\2D\World.h">
+      <Filter>Header Files\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\Base64\Base64.h">
+      <Filter>Header Files\API\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\JSON\JSON.h">
+      <Filter>Header Files\API\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SimplexNoise\SimplexNoise.h">
+      <Filter>Header Files\API\SimplexNoise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\etc1_utils.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\image_DXT.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\image_helper.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\jo_jpeg.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\pkm_helper.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\pvr_helper.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\SOIL2.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stb_image.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stb_image_write.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_DDS.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_DDS_c.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_ext.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_ext_c.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_pkm.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_pkm_c.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_pvr.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\API\SOIL\stbi_pvr_c.h">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Block.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\BlockManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inventory.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\InventoryAction.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\InventoryHandle.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\InventorySlot.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Item.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ItemManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ItemStack.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\State.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Tag.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mod\Mod.h">
+      <Filter>Header Files\Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Mod\Parser.h">
+      <Filter>Header Files\Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RenderManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\API\SOIL\image_DXT.c">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API\SOIL\image_helper.c">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API\SOIL\SOIL2.c">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\API\SOIL\etc1_utils.c">
+      <Filter>Header Files\API\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Sound.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Worlds.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Minopia.json">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Settings.json">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
